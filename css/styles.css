@@ -1,0 +1,101 @@
+/* font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+/* nav */
+.nav-item .nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 25px;
+}
+.nav-item a{
+    color: #ffffff;
+}
+.nav-item a:hover{
+    color: #FFFF00;
+    transition: all .3s ease-in-out !important;
+}
+
+/* hero */
+#hero{
+    background-image: url('../asset/image/unsplash_LDnctIMQGeY.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+.hero-title{
+    padding-top: 300px;
+}
+.hero-title h1{
+    font-size: 80px;
+    font-weight: 600px; 
+    color: #ffffff;
+}
+.hero-title p{
+    font-size: 24px;
+}
+
+/* program */
+#btn-card{
+    background-color:  #FEDA5C;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-title{
+    font-size: 30px;
+}
+
+/* produk */
+#produk{
+    background-color:  #FFE39A66;
+}
+#produk .card{
+    background-color: transparent;
+    border: none;
+}
+#produk2 .card{
+    background-color: transparent;
+    border: none;
+}
+#produk .card img{
+    border-radius: 20px;
+}
+#produk2 .card img{
+    border-radius: 20px;
+}
+.header-produk h1{
+    font-size: 45px;
+    color: #000000;
+    font-weight: bolder;
+}
+.produk-content h1{
+    font-weight: bold;
+}
+.produk-content p{
+    font-size: 24px;
+    font-weight: 200;
+}
+#btn-produk{
+    color: #ffffff;
+    background-color: #FEDA5C;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 20%;
+}
+#btn-produk:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+
+
+
