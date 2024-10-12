@@ -212,11 +212,17 @@ header ul li a:hover{
         height: 100%;
         border: 0;
     }
+    #kontak-kami{
+        text-align: center;
+    }
+    #tentang-kami{
+        text-align: center;
+    }
 }
 /* kontak kami */
 #medsos-kontak{
     background-color:#7C7C7C; 
-    width: 60%;
+    width: 100%;
     padding: 10px;
     border-radius: 20px;
 }
@@ -226,7 +232,7 @@ header ul li a:hover{
     border-radius: 38px;
 }
 #medsos h4{
-    font-size: 30px;
+    font-size: 25px;
 }
 #medsos p{
     font-size: 20px;
@@ -240,6 +246,6 @@ header ul li a:hover{
     padding: 5px;
 }
 #footer h1{
-    font-size: 20px;
+    font-size: 15px;
 }
 
