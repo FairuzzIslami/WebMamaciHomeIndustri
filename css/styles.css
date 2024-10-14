@@ -90,6 +90,30 @@ header ul li a:hover{
 }
 .hero-title p {
     font-size: 24px;
+    font-weight: 100;
+}
+
+/* floating wa */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:1;
+}
+.float:hover{
+    background-color: #0e5c02;
+    transition: all .6s ease;
+}
+.my-float{
+	margin-top:16px;
 }
 
 /* program */
@@ -148,7 +172,7 @@ header ul li a:hover{
     border-radius: 30px;
 }
 #btn-produk:hover {
-    background-color: #C0C0C0;
+    background-color: #898686;
     color: #feda5c;
     transition: all 0.3s ease-in-out;
 }
