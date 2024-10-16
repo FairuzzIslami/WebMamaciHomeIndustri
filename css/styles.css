@@ -7,71 +7,27 @@ body {
 
 /* nav */
 .nav-item .nav-link {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
     font-family: 25px;
+    color: #ffffff;
 }
 .nav-item a {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: #000000 !important;
+    transition: all .6s;
+}
+.scroll-nav-active{
+    background-color: #e4bc2a;
+    transition: all 0.3s ease;
+}
+.text-nav-active{
     color: #ffffff;
+    transition: all 0.3s ease;
 }
-.nav-item a:hover {
-    color: #ffff00;
-    transition: all 0.3s ease-in-out !important;
-}
-
-/* nav */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-    padding: 100px 100px;
-    z-index: 99999;
-}
-header.sticky {
-    padding: 30px 100px;
-    background: #000000;
-
-}
-header .logo {
-    position: relative;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    color: #ffffff;
-    letter-spacing: 2px;
-    transition: 0.6s;
-}
-header ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header ul li {
-    position: relative;
-    list-style: none;
-}
-header ul li a {
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-weight: 500;
-    transition: 0.6s;
-}
-header ul li a:hover{
-    color:yellow ;
-    transition: all .3s ease;
-}
-
-
 /* hero */
 #hero {
     background-image: url("../asset/image/unsplash_LDnctIMQGeY.jpg");
@@ -242,6 +198,11 @@ header ul li a:hover{
     #tentang-kami{
         text-align: center;
     }
+    .nav-item a{
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+    }
+    
 }
 /* kontak kami */
 #medsos-kontak{
