@@ -3,10 +3,12 @@
 
 body {
     font-family: "Lexend", sans-serif;
+    overflow-x: hidden;
 }
 h1, h2, h3, p, a {
     font-family: 'Lexend', sans-serif;
 }
+
 
 /* nav */
 .nav-item .nav-link {
@@ -176,6 +178,9 @@ h1, h2, h3, p, a {
     border-radius: 30px;
 }
 @media (max-width: 768px) {
+    body,html{
+        overflow-x: hidden
+    }
     #img-produk {
     text-align: center;
     padding-right: 0;
@@ -214,6 +219,7 @@ h1, h2, h3, p, a {
     nav{
         z-index: 999;
     }
+    
 }
 /* kontak kami */
 #medsos-kontak{
